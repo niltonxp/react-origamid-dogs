@@ -8,7 +8,9 @@ import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Login from "./Components/Login/Login";
 import User from "./Components/User/User";
+import UserProfile from "./Components/User/UserProfile";
 import ProtectedRoute from "./Components/Helper/ProtectedRoute";
+import Photo from "./Components/Photo/Photo";
 
 import { UserStorage } from "./UserContext";
 
@@ -22,6 +24,8 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="login/*" element={<Login />} />
             <ProtectedRoute path="account/*" element={<User />} />
+            <Route path="profile/:user" element={<UserProfile />} />
+            <Route path="photo/:id" element={<Photo />} />
           </Routes>
           <Footer />
         </UserStorage>
