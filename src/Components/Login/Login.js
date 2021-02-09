@@ -6,6 +6,7 @@ import LoginForm from "./LoginForm";
 import LoginCreate from "./LoginCreate";
 import LoginPasswordLost from "./LoginPasswordLost";
 import LoginPasswordReset from "./LoginPasswordReset";
+import NotFound from "../NotFound";
 
 import { UserContext } from "../../UserContext";
 
@@ -22,6 +23,7 @@ const Login = () => {
           <Route path="create" element={<LoginCreate />} />
           <Route path="forget-password" element={<LoginPasswordLost />} />
           <Route path="reset-password" element={<LoginPasswordReset />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
     </section>
