@@ -7,7 +7,6 @@
   grid-template-columns: 36rem 20rem;
   grid-template-rows: auto 1fr auto;
   overflow: hidden;
-
   opacity: 0;
   transform: scale(0.8);
   animation: scaleUp 0.3s forwards;
@@ -39,7 +38,7 @@
 
 .single .img {
   grid-row: 1;
-  border-radius: .4rem;
+  border-radius: 0.4rem;
   overflow: hidden;
 }
 
@@ -67,13 +66,13 @@
   text-decoration: underline;
 }
 
-.views::before {
-  content: "";
+.visualizacoes::before {
+  content: '';
   display: inline-block;
   width: 16px;
   height: 10px;
   margin-right: 0.5rem;
-  background: url("../../Assets/visualizacao-black.svg");
+  background: url('../../Assets/visualizacao-black.svg');
 }
 
 .attributes {
@@ -89,13 +88,13 @@
 }
 
 .attributes li::before {
-  content: "";
+  content: '';
   display: inline-block;
   height: 20px;
   margin-right: 0.5rem;
   position: relative;
   top: 3px;
   width: 2px;
-  margin-top: 4px;
   background: #333;
+  margin-top: 5px;
 }

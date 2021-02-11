@@ -5,7 +5,7 @@
   margin: 1rem;
 }
 
-.form.single {
+.single.form {
   margin: 1rem 0;
 }
 
@@ -17,6 +17,7 @@
   resize: none;
   border: 1px solid #eee;
   padding: 0.5rem;
+  border-radius: 0.2rem;
   background: #eee;
   transition: 0.2s;
 }

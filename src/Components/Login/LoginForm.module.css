@@ -2,26 +2,27 @@
   margin-bottom: 2rem;
 }
 
-.lose {
+.perdeu {
   display: inline-block;
   color: #666;
   padding: 0.5rem 0;
   line-height: 1;
 }
 
-.lose::after {
-  content: "";
+.perdeu::after {
+  content: '';
   height: 2px;
   width: 100%;
   background: currentColor;
   display: block;
 }
 
-.register {
+.cadastro {
   margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
-.register p {
+.cadastro p {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
@@ -33,10 +34,10 @@
 }
 
 .subtitle::after {
-  content: "";
+  content: '';
   display: block;
   background: #ddd;
   height: 0.5rem;
   width: 3rem;
-  border-radius: .2rem;
+  border-radius: 0.2rem;
 }
